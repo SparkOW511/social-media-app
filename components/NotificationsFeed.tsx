@@ -1,7 +1,7 @@
 import useNotifications from "@/hooks/useNotifications";
 import useCurrentUser from "@/hooks/useCurrentUser";
 import { useEffect } from "react";
-import { FaBoltLightning } from "react-icons/fa6";
+import { BsBellFill } from "react-icons/bs";
 
 const NotificationsFeed = () => {
   const { data: currentUser, mutate: mutateCurrentUser } = useCurrentUser();
@@ -23,7 +23,7 @@ const NotificationsFeed = () => {
     <div className="flex flex-col">
       {fetchedNotifications.map((notification: Record<string, any>) => (
         <div key={notification.id} className="flex flex-row items-center p-6 gap-4 border-b-[1px] border-neutral-800">
-          <FaBoltLightning color="white" size={32} />
+          <BsBellFill color="white" size={32} />
           <p className="text-white">
             {notification.body}
           </p>
