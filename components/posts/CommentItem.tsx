@@ -35,7 +35,7 @@ const CommentItem: React.FC<CommentItemProps> = ({ data }) => {
             hover:bg-neutral-900
             transition
         ">
-            <div className="flex flex-row items-start gap-3">
+            <div className="flex flex-row items-start gap-3 min-w-10">
                 <Avatar userId={data.user.id}/>
                 <div>
                     <div className="flex flex-row items-center gap-2">
