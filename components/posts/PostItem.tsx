@@ -89,8 +89,7 @@ const PostItem: React.FC<PostItemProps> = ({ data, userId }) => {
                             {createdAt}
                         </span>
                     </div>
-                    <div className="text-white mt-1">
-                        {data.body}
+                    <div dangerouslySetInnerHTML={{__html: data.body}} className="text-white mt-1">                        
                     </div>
                     <div className="flex flex-row items-center mt-3 gap-10">
                         <div className="
