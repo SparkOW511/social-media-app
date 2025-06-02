@@ -139,23 +139,6 @@ The app uses NextAuth.js with credentials provider for authentication:
 - **Loading States**: Elegant loading indicators throughout the app
 - **Form Validation**: Client-side and server-side validation
 
-## 🚀 Deployment
-
-### Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Add environment variables in Vercel dashboard
-4. Deploy automatically
-
-### Other Platforms
-
-The app can be deployed on any platform that supports Next.js:
-- Netlify
-- Railway
-- Heroku
-- DigitalOcean App Platform
-
 ## 🤝 Contributing
 
 1. Fork the repository
