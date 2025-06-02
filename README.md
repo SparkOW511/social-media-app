@@ -55,7 +55,7 @@ Before running this project, make sure you have:
 ### 1. Clone the Repository
 
 ```bash
-git clone [<your-repository-url>](https://github.com/SparkOW511/social-media-app.git)
+git clone https://github.com/SparkOW511/social-media-app.git
 cd social-media-app
 ```
 
