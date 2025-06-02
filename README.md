@@ -167,24 +167,3 @@ The app can be deployed on any platform that supports Next.js:
 ## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## 🐛 Issues & Support
-
-If you encounter any issues or have questions:
-1. Check existing issues in the repository
-2. Create a new issue with detailed description
-3. Include steps to reproduce the problem
-
-## 🔮 Future Enhancements
-
-- [ ] Real-time messaging
-- [ ] Story/Status updates
-- [ ] Advanced search functionality
-- [ ] Content moderation
-- [ ] Mobile app (React Native)
-- [ ] Video/GIF support
-- [ ] Advanced analytics dashboard
-
----
-
-**Happy coding! 🎉**
